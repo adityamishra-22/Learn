@@ -183,10 +183,10 @@
 				<center>
 				<input type="text" name="" style="margin-right: 10px; width: 175px" required="required"><input type="text" name="lname" style="width: 175px" required="required"><br>
 				</center>
-				<label>Email <span class="imp">*</span></label><br>
-				<input type="email" name="mail" style="width: 100%" required="required"><br>
-				<label>Message <span class="imp">*</span></label><br>
-				<input type="text" name="message" style="width: 100%" required="required"><br>
+				<label for="email">Email <span class="imp">*</span></label><br>
+				<input type="email" name="mail" style="width: 100%" required="required" id="email"><br>
+				<label for="message">Message <span class="imp">*</span></label><br>
+				<input type="text" name="message" style="width: 100%" required="required" id="message"><br>
 				<label>Additional Details</label><br>
 				<textarea name="addtional"></textarea><br>
 				<button type="submit" id="csubmit">Send Message</button>
@@ -207,10 +207,10 @@
 	<div class="feedbox">
 		<div class="feed">
 			<form action="mailto:21103@iiitu.ac.in" method="post" enctype="text/plain">
-				<label>Your Name</label><br>
-				<input type="text" name="" class="fname" required="required"><br>
-				<label>Email</label><br>
-				<input type="email" name="mail" required="required"><br>
+				<label for="name">Your Name</label><br>
+				<input type="text" name="" class="fname" required="required" id="name"><br>
+				<label for="mail">Email</label><br>
+				<input type="email" name="mail" required="required" id="mail"><br>
 				<label>Additional Details</label><br>
 				<textarea name="addtional"></textarea><br>
 				<button type="submit" id="csubmit">Send Message</button>
