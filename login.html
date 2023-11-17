@@ -1,3 +1,4 @@
+<!-- 
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +8,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
   <!-- It will redirect to the Home Page after submitting the form -->
-  <script>
+<!--   <script>
   $(document).ready(function(){
     $("form").submit(function(){
       alert("Great Job !");
@@ -18,8 +19,8 @@
 <body>
 		<div class="form-box">
 			<div class="button-box">
-				<div id="btn"></div>
-				<button type="button" class="toggle-btn" id="log" onclick="login()" style="color: #fff;">Log In</button>
+				<div id="btn"></div> -->
+<!-- 				<button type="button" class="toggle-btn" id="log" onclick="login()" style="color: #fff;">Log In</button>
 				<button type="button" class="toggle-btn" id="reg" onclick="register()">Register</button>
 			</div>
 			<div class="social-icons">
@@ -29,7 +30,7 @@
 			</div>
 			 
 			<!-- Login Form -->
-			<form id="login" class="input-group" action="index.html">
+<!-- 			<form id="login" class="input-group" action="index.html">
 				<div class="inp">
 					<img src="images/icon/user.png" alt="User"><input type="text" id="email" class="input-field" placeholder="Username or Phone Number" style="width: 88%; border:none;" required="required">
 				</div>
@@ -38,9 +39,9 @@
 				</div>
 				<input type="checkbox" class="check-box">Remember Password
 				<button type="submit" class="submit-btn">Log In</button>
-			</form>
-
-
+			</form> -->
+<!--  -->
+<!-- 
 			<div class="other" id="other">
 				<div class="instead">
 					<h3>or</h3>
@@ -48,10 +49,10 @@
 				<button class="connect" onclick="google()">
 					<img src="images/icon/google.png" alt="Google"><span>Sign in with Google</span>
 				</button>
-			</div>
+			</div> -->
 			
 			<!-- Registration Form -->
-			<form id="register" class="input-group">
+<!-- 			<form id="register" class="input-group">
 				<input type="text" class="input-field" placeholder="Full Name" required="required">
 				<input type="email" class="input-field" placeholder="Email Address" required="required">
 				<input type="password" class="input-field" placeholder="Create Password" name="psame" required="required">
@@ -62,4 +63,30 @@
 		</div>
 		<script type="text/javascript" src="script.js"></script>
 </body>
+</html>
+ -->
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <form action="#" onsubmit="login(event)">
+        <div class="container">
+            <div>
+                <input type="text" name="" placeholder="Email" id="email">
+            </div>
+            <div>
+                <input type="password" name="" placeholder="Password" id="password">
+            </div>
+            <button id="signin" class="btn">Sign In</button>
+        </div>
+    </form>
+    <script src="/login.js" type="module"></script>
+</body>
+
 </html>
