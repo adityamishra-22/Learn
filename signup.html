@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firebase Signup Form</title>
+</head>
+<body>
+  <h1>Sign Up</h1>
+  <form onsubmit="signup(event)">
+    <div>
+      <input type="text" name="" id="firstname" placeholder="firstname">
+    </div>
+    <div>
+      <input type="text" name="" id="lastname" placeholder="lastname">
+    </div>
+    <div>
+      <input type="email" name="" id="Email" placeholder="email">
+    </div>
+    <div>
+      <input type="password" name=""  id="password" placeholder="password">
+    </div>
+
+    <div>
+      <button id="signupbtn" class="btn">Sign Up</button>
+    </div>
+
+    <div class="member">
+      Already a Member? <a href="/login.html">Login Here!</a>
+    </div>
+  </form>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
